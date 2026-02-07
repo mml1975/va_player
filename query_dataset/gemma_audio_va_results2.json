@@ -1,0 +1,2452 @@
+[
+  {
+    "request": "Stop",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Stop playing",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Stop music",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Break music",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Break playing",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stop audio",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Cancel audio",
+    "ground_truth": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_stop</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Tell me the playing status.",
+    "ground_truth": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "What's the status of playing?",
+    "ground_truth": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "status!",
+    "ground_truth": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Give me the status",
+    "ground_truth": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_status</name><arguments></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "I want to hear Louis Armstrong",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from John Legend",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up music by Frederic Chopin",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Launch Louis Armstrong",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Bad Bunny",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Put on music by Billie Eilish",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Imagine Dragons",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Travis Scott",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up music by Charlie Parker",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Charlie Parker</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Charlie Parker</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from John Coltrane",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Initiate music by Bruno Mars",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>Initiate music</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on Radiohead",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Louis Armstrong",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Miles Davis",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream Pyotr Ilyich Tchaikovsky",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pyotr Ilyich Tchaikovsky</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Stream Pyotr Ilyich Tchaikovsky</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Hans Zimmer",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Charlie Parker",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Charlie Parker</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Charlie Parker</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Ed Sheeran",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ed Sheeran</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ed Sheeran</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Dua Lipa",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Launch Thelonious Monk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title>Monk's Mood</title><genre>Jazz</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Pink Floyd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear The Weeknd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream Coldplay",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear The Weeknd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Nirvana",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Adele",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start music by Shakira",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Adele",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear John Coltrane",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Bad Bunny",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Bad Bunny",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Ed Sheeran",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ed Sheeran</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ed Sheeran</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Pink Floyd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Billie Eilish",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Johann Sebastian Bach",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Post Malone",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Get me music by Ricchi e Povery",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ricchi e Povery</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.search</name><arguments><artist>Ricchi e Povery</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up music by Bad Bunny",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Coldplay",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Begin Adele",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>Begin</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play music by Rihanna",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rihanna</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rihanna</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Billie Holiday",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Please play Shakira",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Billie Eilish",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up Dua Lipa",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Daft Punk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Johann Sebastian Bach",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Thelonious Monk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to music by BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Thelonious Monk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up Hans Zimmer",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play something from Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Initiate music by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Piano Man",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Piano Man</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Piano Man</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Happy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Happy</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Happy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on 'So What'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>So What</title><artist>Miles Davis</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Despacito",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Despacito</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Despacito</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Smells Like Teen Spirit",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Smells Like Teen Spirit</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Smells Like Teen Spirit</title><genre>Grunge</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Yesterday",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Yesterday</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Yesterday</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Moon River",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Moon River</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Moon River</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Despacito",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Despacito</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Despacito</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Moon River",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Moon River</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Moon River</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream 'Stairway to Heaven'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Stairway to Heaven</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Stairway to Heaven</title><artist>Led Zeppelin</artist><genre>Rock</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Another Brick in the Wall",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Another Brick in the Wall</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Another Brick in the Wall</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play 'Fly Me to the Moon'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Fly Me to the Moon</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Fly Me to the Moon</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing What a Wonderful World",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>What a Wonderful World</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>What a Wonderful World</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Fly Me to the Moon",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Fly Me to the Moon</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Fly Me to the Moon</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start 'Watermelon Sugar'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Watermelon Sugar</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Watermelon Sugar</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play 'Smells Like Teen Spirit'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Smells Like Teen Spirit</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Smells Like Teen Spirit</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Imagine",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Imagine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Imagine</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start 'Für Elise'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Für Elise</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Für Elise</title><artist>Beethoven</artist><genre>Classical</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Cotton tail",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Cotton tail</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Cotton tail</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Yesterday",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Yesterday</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Yesterday</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play 'Hotel California'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Hotel California</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Hotel California</title><artist>Eagles</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Stairway to Heaven",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Stairway to Heaven</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Stairway to Heaven</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Happy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Happy</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Happy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Take the A Train",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Take the A Train</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Take the A Train</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Fire up 'What a Wonderful World'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>What a Wonderful World</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>What a Wonderful World</title><artist>Louis Armstrong</artist><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Hey Jude",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Hey Jude</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Hey Jude</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Feeling Good",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Feeling Good</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Feeling Good</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Ride of the Valkyries",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Ride of the Valkyries</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Ride of the Valkyries</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Für Elise",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Für Elise</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Für Elise</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Run 'So What'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>So What</title><artist>Miles Davis</artist><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called So What",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>So What</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Please play 'Blinding Lights'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Blinding Lights</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Blinding Lights</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Bring up 'Yesterday'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Yesterday</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Yesterday</title><artist>The Beatles</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Birdland",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Birdland</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Birdland</artist><title>Birdland</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Halo",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Halo</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Halo</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Fire up 'Take Five'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Take Five</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Take Five</title><artist>unknown</artist><genre>unknown</genre><album>unknown</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Let's Do It",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Let's Do It</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Let's Do It</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Stairway to Heaven",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Stairway to Heaven</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Stairway to Heaven</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear All of Me",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>All of Me</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>All of Me</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Purple Haze",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Purple Haze</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Purple Haze</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play 'Acapulco'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Acapulco</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Acapulco</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Another Brick in the Wall",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Another Brick in the Wall</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Another Brick in the Wall</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Halo",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Halo</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Halo</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Acapulco",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Acapulco</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Acapulco</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Fly Me to the Moon",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Fly Me to the Moon</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Fly Me to the Moon</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Blinding Lights",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Blinding Lights</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Blinding Lights</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up 'Levitating'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Levitating</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Levitating</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Nocturne Op. 9 No. 2",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Nocturne Op. 9 No. 2</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Nocturne Op. 9 No. 2</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up 'Nocturne Op. 9 No. 2'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Nocturne Op. 9 No. 2</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Nocturne Op. 9 No. 2</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing So What",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>So What</title><artist>Miles Davis</artist><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Sweet Child O' Mine",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Sweet Child O' Mine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Sweet Child O' Mine</title><artist>Sweet Child O' Mine</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up 'Shallow'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Shallow</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Shallow</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Uptown Funk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Uptown Funk</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Mark Ronson</artist><title>Uptown Funk</title><genre>Funk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Put on 'Imagine'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Imagine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Imagine</title><artist>John Lennon</artist><genre>Pop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'd like to hear Take Five",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Take Five</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Take Five</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play 'Someone Like You'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Someone Like You</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Someone Like You</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start playing Für Elise",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Für Elise</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Für Elise</title><artist></artist><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Halo",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Halo</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Halo</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Put on 'Take Five'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Take Five</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Take Five</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the song called Birdland",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Birdland</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Birdland</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for lo-fi",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>lo-fi</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for lo-fi.<end_of_turn>"
+  },
+  {
+    "request": "Play opera music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>opera</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>opera</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for techno",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>techno</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for techno.<end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for fusion",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>fusion</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for fusion.<end_of_turn>"
+  },
+  {
+    "request": "Give me some good ambient",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>ambient</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>Ambient</genre></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Stream some jazz",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for rock",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>rock</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for rock.<end_of_turn>"
+  },
+  {
+    "request": "Stream some blues",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>blues</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>blues</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start some chamber music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>chamber music</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>chamber music</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a salsa playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>salsa</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>salsa</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play some disco",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>disco</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>disco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Run some techno",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>techno</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>techno</genre></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Queue up some symphony",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>symphony</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>Symphony</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a r&b playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>r&b</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>r&b</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play salsa music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>salsa</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>salsa</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for hip hop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>hip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for hip hop.<end_of_turn>"
+  },
+  {
+    "request": "Please play some dubstep",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>dubstep</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Give me some good country",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>country</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>Country</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a fusion playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>fusion</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>fusion</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for classical",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>classical</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for classical\n<end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for flamenco",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>flamenco</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for flamenco.<end_of_turn>"
+  },
+  {
+    "request": "Run some dubstep",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>dubstep</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for classical",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>classical</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for classical\n<end_of_turn>"
+  },
+  {
+    "request": "Queue up a disco playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>disco</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>disco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Give me some good blues",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>blues</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>blues</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for reggae",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>reggae</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for reggae.<end_of_turn>"
+  },
+  {
+    "request": "Queue up a disco playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>disco</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>disco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Get me some dubstep",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>dubstep</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a salsa playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>salsa</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>salsa</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for trance",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>trance</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for trance.<end_of_turn>"
+  },
+  {
+    "request": "Queue up a soul playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>soul</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>soul</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for r&b",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>r&b</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for r&b\n<end_of_turn>"
+  },
+  {
+    "request": "Give me some good electronic",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>electronic</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>electronic</genre><title>good electronic</title></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Can you play some rock",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>rock</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>rock</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play blues music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>blues</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>blues</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream some jazz",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play some symphony",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>symphony</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>symphony</genre></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Queue up a bossa nova playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bossa nova</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>bossa nova</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play some techno",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>techno</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>techno</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play soul music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>soul</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>soul</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Fire up some dubstep",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>dubstep</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for trip hop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>trip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for trip hop.<end_of_turn>"
+  },
+  {
+    "request": "Give me some good r&b",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>r&b</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>R&B</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a metal playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>metal</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>metal</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for funk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>funk</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for funk.<end_of_turn>"
+  },
+  {
+    "request": "Play cool jazz music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>cool jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>jazz</genre><title>cool jazz</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up a blues playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>blues</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>blues</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play some house",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>house</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>house</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Give me some good bebop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bebop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>bebop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for smooth jazz",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>smooth jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for smooth jazz.<end_of_turn>"
+  },
+  {
+    "request": "Give me some good punk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>punk</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>punk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Run some bebop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bebop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>bebop</title><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for country",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>country</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for country.<end_of_turn>"
+  },
+  {
+    "request": "Let me hear some techno",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>techno</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>techno</genre></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Queue up a dubstep playlist",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>dubstep</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for pop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>pop</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for pop.<end_of_turn>"
+  },
+  {
+    "request": "Start some pop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>pop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>pop</genre></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for jazz",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "I'm in the mood for jazz.<end_of_turn>"
+  },
+  {
+    "request": "I'm in the mood for opera",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>opera</genre><album></album></arguments></tool_call>",
+    "real_response": "opera<end_of_turn>"
+  },
+  {
+    "request": "Play drum and bass music",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>drum and bass</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><genre>drum and bass</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play The Joshua Tree album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>The Joshua Tree</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Joshua Tree</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Bring up the album 'Back to Black'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Back to Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Back to Black</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to The Joshua Tree",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>The Joshua Tree</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>U2</artist><title>The Joshua Tree</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up the album 'A Love Supreme'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>A Love Supreme</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>A Love Supreme</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Lemonade album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Lemonade</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Lemonade</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Let me hear the album '21'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>21</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album 1989",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>1989</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>1989</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Initiate the album 'Eine kleine Nachtmusik'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Eine kleine Nachtmusik</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Eine kleine Nachtmusik</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Random Access Memories",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Random Access Memories</title><artist>Daft Punk</artist><genre>Electronic</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 21 album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>21</title><artist>Album</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album 1989",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>1989</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>1989</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Stockholm Concert",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Stockholm Concert</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Stockholm Concert</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play ÷ (Divide) album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>÷ (Divide)</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Play ÷ (Divide)</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to the album 'Views'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Views</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Views</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Back to Black",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Back to Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Michael Jackson</artist><title>Back to Black</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to 21",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>21</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Future Nostalgia",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Future Nostalgia</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Future Nostalgia</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album ÷ (Divide)",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>÷ (Divide)</album></arguments></tool_call>",
+    "real_response": "Okay, I understand. I will listen to the user's audio request, transcribe it, and respond with either an XML tool call (if audio playback is required) or a plain text response. I will also handle control commands like \"stop,\" \"break,\" \"cancel,\" and \"status\" as specified.\n\nLet's begin. I'm ready for the first audio input.\n<end_of_turn>"
+  },
+  {
+    "request": "Play Ellington at Newport album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Ellington at Newport</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ellington</artist><title>at Newport</title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Italy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Italy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Italy</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to When We All Fall Asleep, Where Do We Go?",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>When We All Fall Asleep, Where Do We Go?</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Random Access Memories",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Random Access Memories</title><artist>Daft Punk</artist><genre>Electronic</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Greatest Hits",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Greatest Hits</artist><title>Greatest Hits</title><genre></genre><album>Greatest Hits</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play The Joshua Tree album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>The Joshua Tree</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Joshua Tree</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Pull up the album 'Round About Midnight'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Round About Midnight</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Round About Midnight</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album My Beautiful Dark Twisted Fantasy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Let me hear the album 'Greatest Hits'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Greatest Hits</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Lemonade",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Lemonade</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Lemonade</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album 'Giant Steps'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Giant Steps</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Giant Steps</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Greatest Hits",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Greatest Hits</title><genre>Unknown</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Random Access Memories album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Random Access Memories</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Reputation album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Reputation</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 1989 album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>1989</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>1989</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Folklore album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Folklore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Folklore</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Random Access Memories album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Random Access Memories</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on the album 'Greatest Hits'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Greatest Hits</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Reputation",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Reputation</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Back in Black album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Back in Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Play Back in Black</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Kind of Blue album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Kind of Blue</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Kind of Blue</album><title>Kind of Blue</title><artist>Miles Davis</artist><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream the album 'Folklore'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Folklore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Folklore</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Stockholm Concert",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Stockholm Concert</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Stockholm Concert</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album Moonlight Sonata",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Moonlight Sonata</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Back to Black album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Back to Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Play Back to Black</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the album The Blueprint",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Blueprint</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Folklore",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Folklore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Folklore</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Random Access Memories",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Random Access Memories</title><artist>Daft Punk</artist><genre>Electronic</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play After Hours album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>After Hours</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Play After Hours</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to Round About Midnight",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>Round About Midnight</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Round About Midnight</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 21 album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>21</title><artist>Album</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play The Joshua Tree album",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre></genre><album>The Joshua Tree</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Joshua Tree</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Purple Haze performed by Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title>Purple Haze</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title>Purple Haze</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Yesterday from Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>Yesterday</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>Yesterday</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Shallow from Dua Lipa",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Shallow</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Shallow</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Watermelon Sugar from Travis Scott",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title>Watermelon Sugar</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title>Watermelon Sugar</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Feeling Good from Post Malone",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title>Feeling Good</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title>Feeling Good</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear So What from Thelonious Monk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title>So What</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title>So What</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Kendrick Lamar's All of Me",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>All of Me</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>All of Me</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Hey Jude performed by BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title>Hey Jude</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title>Hey Jude</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Coldplay's Take Five",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Take Five</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Take Five</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up 'Moon River' by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Moon River</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Moon River</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Nirvana's My Favorite Things",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>My Favorite Things</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>My Favorite Things</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Hotel California from Adele",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>Hotel California</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>Hotel California</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play The Weeknd's Hey Jude",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title>Hey Jude</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title>Hey Jude</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Miles Davis's Let's Do It",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title>Let's Do It</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title>Let's Do It</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Levitating from Pink Floyd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>Levitating</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>Levitating</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Take Five from Rosalía",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rosalía</artist><title>Take Five</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rosalía</artist><title>Take Five</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Imagine from Bruno Mars",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>Imagine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>Imagine</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Imagine performed by Ludwig van Beethoven",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title>Imagine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title>Start Imagine</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream 'Shallow' by Taylor Swift",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Taylor Swift</artist><title>Shallow</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Taylor Swift</artist><title>Shallow</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Nocturne Op. 9 No. 2 from Frank Sinatra",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frank Sinatra</artist><title>Nocturne Op. 9 No. 2</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frank Sinatra</artist><title>Nocturne Op. 9 No. 2</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Bob Marley's Someone Like You",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bob Marley</artist><title>Someone Like You</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bob Marley</artist><title>Someone Like You</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Begin 'Nocturne Op. 9 No. 2' by Imagine Dragons",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Nocturne Op. 9 No. 2</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Nocturne Op. 9 No. 2</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Rihanna's Stairway to Heaven",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rihanna</artist><title>Stairway to Heaven</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rihanna</artist><title>Stairway to Heaven</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Billie Holiday's Blue in Green",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Blue in Green</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Blue in Green</title><genre>Jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Blue in Green performed by Bad Bunny",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title>Blue in Green</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bad Bunny</artist><title>Start Blue in Green</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Despacito performed by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Despacito</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Despacito</title><genre>Latin</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Sweet Child O' Mine performed by Billie Holiday",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Sweet Child O' Mine</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Sweet Child O' Mine</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Run 'Nocturne Op. 9 No. 2' by Radiohead",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title>Nocturne Op. 9 No. 2</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title>Nocturne Op. 9 No. 2</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Bruno Mars's Bohemian Rhapsody",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>Bohemian Rhapsody</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>Bohemian Rhapsody</title><genre>Rock</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Stairway to Heaven from Nirvana",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Stairway to Heaven</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Stairway to Heaven</title><genre>Rock</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Wolfgang Amadeus Mozart's Fly Me to the Moon",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>Fly Me to the Moon</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>Fly Me to the Moon</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Happy from Billie Holiday",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Happy</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Holiday</artist><title>Happy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Johann Sebastian Bach's Ride of the Valkyries",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>Ride of the Valkyries</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>Ride of the Valkyries</title><genre>Classical</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Coldplay's Halo",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Halo</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Halo</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play John Legend's Uptown Funk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>Uptown Funk</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>Uptown Funk</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play John Legend's Uptown Funk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>Uptown Funk</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>Uptown Funk</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on 'Piano Man' by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Piano Man</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Piano Man</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Happy performed by Daft Punk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title>Happy</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title>Start Happy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Moon River performed by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Moon River</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Moon River</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play 'Ride of the Valkyries' by Kendrick Lamar",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>Ride of the Valkyries</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>Ride of the Valkyries</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Summertime from Billie Eilish",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title>Summertime</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title>Summertime</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Bad Guy' by Coldplay",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Bad Guy</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Coldplay</artist><title>Bad Guy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Ricchi e Povery's Blue in Green",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ricchi e Povery</artist><title>Blue in Green</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ricchi e Poveri</artist><title>Blue in Green</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Despacito from Travis Scott",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title>Despacito</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Travis Scott</artist><title>Despacito</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Ricchi e Povery's Dance Monkey",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ricchi e Povery</artist><title>Dance Monkey</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ricchi e Povery</artist><title>Dance Monkey</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Smells Like Teen Spirit performed by Imagine Dragons",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Smells Like Teen Spirit</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Start Smells Like Teen Spirit</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Begin 'Watermelon Sugar' by Kendrick Lamar",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>Watermelon Sugar</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kendrick Lamar</artist><title>Watermelon Sugar</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Levitating from Louis Armstrong",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title>Levitating</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title>Levitating</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Symphony No. 5 from Nirvana",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Symphony No. 5</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Symphony No. 5</title><genre>Symphony</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Clair de Lune performed by Drake",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title>Clair de Lune</title><genre></genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title>Clair de Lune</title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on trip hop music by Ludwig van Beethoven",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title></title><genre>trip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title>trip hop</title><genre>trip hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Wolfgang Amadeus Mozart in the bebop style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title></title><genre>bebop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>bebop</title><genre>bebop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Drake in the soul style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title></title><genre>soul</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title>soul</title><genre>soul</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Post Malone in the flamenco style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title></title><genre>flamenco</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title>flamenco</title><genre>flamenco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Hans Zimmer in the punk style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre>punk</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>punk</title><genre>punk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to listen to bossa nova music by Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre>bossa nova</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>bossa nova</title><genre>bossa nova</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Please play trip hop music by Bruno Mars",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title></title><genre>trip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bruno Mars</artist><title>trip hop</title><genre>trip hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Nirvana in the house style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title></title><genre>house</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>in the house style</title><genre>rock</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Frederic Chopin doing fusion",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title></title><genre>fusion</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>fusion</title><genre>Classical</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play John Williams in the bossa nova style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Williams</artist><title></title><genre>bossa nova</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Williams</artist><title>bossa nova</title><genre>bossa nova</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Pyotr Ilyich Tchaikovsky doing hip hop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pyotr Ilyich Tchaikovsky</artist><title></title><genre>hip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pyotr Ilyich Tchaikovsky</artist><title>hip hop</title><genre>Hip Hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Nirvana in the bossa nova style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title></title><genre>bossa nova</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>unknown</title><genre>bossa nova</genre><album>unknown</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Miles Davis in the funk style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title></title><genre>funk</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><genre>funk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play drum and bass music by Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre>drum and bass</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>Drum and Bass</title><genre>Drum and Bass</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Launch funk music by Taylor Swift",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Taylor Swift</artist><title></title><genre>funk</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Taylor Swift</artist><title>Funk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Initiate trip hop music by Hans Zimmer",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre>trip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>trip hop</title><genre>trip hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Drake in the hip hop style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title></title><genre>hip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Drake</artist><title></title><genre>hip hop</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up jazz music by Duke Ellington",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title></title><genre>jazz</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>jazz</title><genre>jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Crystal Gayle doing punk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title></title><genre>punk</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title>punk</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Wolfgang Amadeus Mozart in the trance style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title></title><genre>trance</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>Unknown</title><genre>trance</genre><album>Unknown</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Louis Armstrong doing dubstep",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title></title><genre>dubstep</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Louis Armstrong</artist><title>dubstep</title><genre>Jazz</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play lo-fi music by Daft Punk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title></title><genre>lo-fi</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title>lo-fi</title><genre>lo-fi</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Let me hear opera music by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre>opera</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>opera</title><genre>opera</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Fire up rock music by Adele",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title></title><genre>rock</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>rock music</title><genre>rock</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Load symphony music by Pink Floyd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title></title><genre>symphony</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>Symphony</title><genre>Classical</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Miles Davis doing trip hop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title></title><genre>trip hop</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title>trip hop</title><genre>Jazz</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Bring up r&b music by Frederic Chopin",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title></title><genre>r&b</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>r&b</title><genre>r&b</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Stream indie music by Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre>indie</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title>indie music</genre>genre=indie</arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Eminem in the bossa nova style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Eminem</artist><title></title><genre>bossa nova</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Eminem</artist><title>bossa nova</title><genre>bossa nova</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "I want to hear Shakira doing flamenco",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title></title><genre>flamenco</genre><album></album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Shakira</artist><title>flamenco</title><genre>flamenco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the bebop record The Blueprint",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bebop</genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Blueprint</artist><title>Start the bebop record</title></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Play Kind of Blue which is pop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>pop</genre><album>Kind of Blue</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title>Kind of Blue</title><genre>Pop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the trance album 'The Blueprint'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>trance</genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Unknown</artist><title>The Blueprint</title><genre>Trance</genre><album>The Blueprint</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play the lo-fi album '25'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>lo-fi</genre><album>25</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>25</album><title>lo-fi</title><genre>lo-fi</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the ambient record My Beautiful Dark Twisted Fantasy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>ambient</genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kanye West</artist><title>My Beautiful Dark Twisted Fantasy</title><genre>Hip Hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Giant Steps which is smooth jazz",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>smooth jazz</genre><album>Giant Steps</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Giant Steps</title><genre>smooth jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the hip hop album 'Moonlight Sonata'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>hip hop</genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Unknown</artist><title>Moonlight Sonata</title><genre>Hip Hop</genre><album>Unknown</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Evermore which is hip hop",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>hip hop</genre><album>Evermore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Taylor Swift</artist><title>Evermore</title><genre>Hip Hop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the bebop album 'To Pimp a Butterfly'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bebop</genre><album>To Pimp a Butterfly</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bebop</artist><title>To Pimp a Butterfly</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Get me the cool jazz album '21'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>cool jazz</genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>21</title><genre>cool jazz</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Bring up the metal album 'Lemonade'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>metal</genre><album>Lemonade</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>Lemonade</album><title>Bring up the metal album</title><genre>Metal</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up the bebop album 'When We All Fall Asleep, Where Do We Go?'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>bebop</genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>When We All Fall Asleep, Where Do We Go?</album><title>When We All Fall Asleep, Where Do We Go?</title><artist>beabadoobee</artist><genre>Indie Pop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the funk record Reputation",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>funk</genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Start the funk</artist><title>Reputation</title><genre>Funk</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the metal record My Beautiful Dark Twisted Fantasy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>metal</genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>N/A</artist><title>My Beautiful Dark Twisted Fantasy</title><genre>Metal</genre><album>N/A</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the r&b record 21",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>r&b</genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>21</artist><title>Start the r&b record</title><genre>r&b</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the indie record Moonlight Sonata",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>indie</genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Moonlight Sonata</artist><title>Indie</title><genre>Indie</genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on the opera album 'Round About Midnight'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>opera</genre><album>Round About Midnight</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Opera</artist><title>Round About Midnight</title><genre></genre><album>Round About Midnight</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 25 which is disco",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>disco</genre><album>25</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>25</title><genre>disco</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Greatest Hits which is folk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>folk</genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Greatest Hits</artist><title>Greatest Hits</title><genre>folk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Rumours which is trance",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>trance</genre><album>Rumours</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rumours</artist><title>Rumours</title><genre>trance</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play My Beautiful Dark Twisted Fantasy which is ambient",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>ambient</genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Kanye West</artist><title>Beautiful Dark Twisted Fantasy</title><genre>Ambient</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Get me the electronic album 'The Joshua Tree'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>electronic</genre><album>The Joshua Tree</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>U2</artist><title>The Joshua Tree</title><genre>Electronic</genre><album>The Joshua Tree</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the symphony record Eine kleine Nachtmusik",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>symphony</genre><album>Eine kleine Nachtmusik</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Mozart</artist><title>Eine kleine Nachtmusik</title><genre>Classical</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the symphony album 'To Pimp a Butterfly'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>symphony</genre><album>To Pimp a Butterfly</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>To Pimp a Butterfly</album><title>Symphony</title><artist>Kendrick Lamar</artist><genre></genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Future Nostalgia which is country",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>country</genre><album>Future Nostalgia</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Future Nostalgia</title><genre>Country</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Back to Black which is folk",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>folk</genre><album>Back to Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Michael Jackson</artist><title>Back to Black</title><genre>Folk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Run the techno album '÷ (Divide)'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>techno</genre><album>÷ (Divide)</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>female signal</artist><title>÷ (Divide)</title><genre>techno</genre><album>÷ (Divide)</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Would you play the punk album 'Nevermind'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>punk</genre><album>Nevermind</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Nevermind</title><genre>Punk</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Spin up the reggae album 'The Four Seasons'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>reggae</genre><album>The Four Seasons</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Four Seasons</album><genre>reggae</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the fusion album 'The Four Seasons'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title></title><genre>fusion</genre><album>The Four Seasons</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><album>The Four Seasons</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Fly Me to the Moon off Lover",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Fly Me to the Moon</title><genre></genre><album>Lover</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Fly Me to the Moon</artist><title>Lover</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Imagine on A Love Supreme",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Imagine</title><genre></genre><album>A Love Supreme</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title>Imagine</title><genre>Jazz</genre><album>A Love Supreme</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Symphony No. 5 off Reputation",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Symphony No. 5</title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Reputation</artist><title>Symphony No. 5</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Purple Haze on 21",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Purple Haze</title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Purple Haze</title><artist>21</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Cotton tail on Random Access Memories",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Cotton tail</title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Daft Punk</artist><title>Cotton Tail</title><genre>Electronic</genre><album>Random Access Memories</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Autumn Leaves off Rumours",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Autumn Leaves</title><genre></genre><album>Rumours</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>Autumn Leaves</title><album>Rumours</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Put on 'All of Me' from the album 'Reputation'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>All of Me</title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>All of Me</title><album>Reputation</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Levitating on 21",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Levitating</title><genre></genre><album>21</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Levitating</title><album>Future Nostalgia</album><genre>Pop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Can you play 'Yesterday' from the album 'Greatest Hits'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Yesterday</title><genre></genre><album>Greatest Hits</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>unknown</artist><title>Yesterday</title><genre>unknown</genre><album>Greatest Hits</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Thinking Out Loud on Ellington at Newport",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Thinking Out Loud</title><genre></genre><album>Ellington at Newport</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ellington at Newport</artist><title>Thinking Out Loud</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Pull up 'So What' from the album 'Scorpion'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album>Scorpion</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Miles Davis</artist><title>So What</title><album>Scorpion</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Purple Haze on The Magic Flute",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Purple Haze</title><genre></genre><album>The Magic Flute</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Magic Flute</artist><title>Purple Haze</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Cotton tail on Time Out",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Cotton tail</title><genre></genre><album>Time Out</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Time Out</artist><title>Cotton tail</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Halo on Lemonade",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Halo</title><genre></genre><album>Lemonade</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Lemonade</artist><title>Halo</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track So What on Italy",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album>Italy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pharrell Williams</artist><title>So What</title><genre>Pop</genre><album>G I R L</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Shape of You off Moonlight Sonata",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Shape of You</title><genre></genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ed Sheeran</artist><title>Shape of You</title><genre>Pop</genre><album>x</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Initiate 'Blinding Lights' from the album 'My Beautiful Dark Twisted Fantasy'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Blinding Lights</title><genre></genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title>Blinding Lights</title><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up 'Imagine' from the album 'The Magic Flute'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Imagine</title><genre></genre><album>The Magic Flute</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Unknown</artist><title>Imagine</title><genre>Unknown</genre><album>The Magic Flute</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up 'Despacito' from the album 'Reputation'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Despacito</title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Luis Fonsi</artist><title>Despacito</title><album>Reputation</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Someone Like You on Folklore",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Someone Like You</title><genre></genre><album>Folklore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Adele</artist><title>Someone Like You</title><genre>Pop</genre><album>Folklore</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Halo off 25",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Halo</title><genre></genre><album>25</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><title>Halo</title><artist>off 25</artist></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play All of Me off Moonlight Sonata",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>All of Me</title><genre></genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Moonlight Sonata</artist><title>All of Me</title><genre></genre><album></album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track Thinking Out Loud on When We All Fall Asleep, Where Do We Go?",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Thinking Out Loud</title><genre></genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title>Thinking Out Loud</title><genre>Pop</genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start the track So What on Good Girl Gone Bad",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>So What</title><genre></genre><album>Good Girl Gone Bad</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Good Girl Gone Bad</artist><title>So What</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play Blinding Lights off Reputation",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist></artist><title>Blinding Lights</title><genre></genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>The Weeknd</artist><title>Blinding Lights</title><genre>Pop</genre><album>After Hours</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album Lemonade by Post Malone",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title></title><genre></genre><album>Lemonade</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title>Lemonade</title><genre></genre><album>Lemonade</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Queue up Post Malone's album 'Italy'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title></title><genre></genre><album>Italy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Post Malone</artist><title>Italy</title><genre></genre><album>Italy</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album Random Access Memories by Bob Marley",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bob Marley</artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Bob Marley</artist><title>Random Access Memories</title><genre></genre><album>Random Access Memories</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start When We All Fall Asleep, Where Do We Go? from Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title>Start When We All Fall Asleep, Where Do We Go?</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album Kind of Blue by Hans Zimmer",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album>Kind of Blue</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>Kind of Blue</title><genre>Jazz</genre><album>Kind of Blue</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start My Beautiful Dark Twisted Fantasy from Hans Zimmer",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title></title><genre></genre><album>My Beautiful Dark Twisted Fantasy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>My Beautiful Dark Twisted Fantasy</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Give me Dua Lipa's album 'Good Girl Gone Bad'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title></title><genre></genre><album>Good Girl Gone Bad</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Dua Lipa</artist><title>Good Girl Gone Bad</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Put on John Coltrane's album 'Random Access Memories'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Coltrane</artist><title>Random Access Memories</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album ÷ (Divide) by Pink Floyd",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title></title><genre></genre><album>÷ (Divide)</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>÷ (Divide)</title><genre></genre><album>÷ (Divide)</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album Good Girl Gone Bad by Johann Sebastian Bach",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album>Good Girl Gone Bad</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>Good Girl Gone Bad</title><genre></genre><album>Good Girl Gone Bad</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Turn on Crystal Gayle's album 'Random Access Memories'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title>Random Access Memories</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start The Blueprint from John Legend",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title></title><genre></genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Legend</artist><title>Start The Blueprint</title></arguments></tool_call>\n<end_of_turn>"
+  },
+  {
+    "request": "Please play Rosalía's album 'Kind of Blue'",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rosalía</artist><title></title><genre></genre><album>Kind of Blue</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Rosalía</artist><title>Kind of Blue</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Random Access Memories from Jimi Hendrix",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title></title><genre></genre><album>Random Access Memories</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Jimi Hendrix</artist><title>Random Access Memories</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Folklore from Nirvana",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title></title><genre></genre><album>Folklore</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Nirvana</artist><title>Folklore</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start The Blueprint from Pyotr Ilyich Tchaikovsky",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pyotr Ilyich Tchaikovsky</artist><title></title><genre></genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "Okay, I understand. I will listen to the user's audio request, transcribe it, and respond with either an XML tool call (if music-related) or plain text. I will also handle stop, break, and status commands as specified.\n\nLet's begin. I'm ready for the audio input.\n<end_of_turn>"
+  },
+  {
+    "request": "Play the album When We All Fall Asleep, Where Do We Go? by Johann Sebastian Bach",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title></title><genre></genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>When We All Fall Asleep, Where Do We Go?</title><genre></genre><album>When We All Fall Asleep, Where Do We Go?</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album Italy by Ella Fitzgerald",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title></title><genre></genre><album>Italy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ella Fitzgerald</artist><title>Italy</title><genre></genre><album>Italy</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play the album 25 by Billie Eilish",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title></title><genre></genre><album>25</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Billie Eilish</artist><title>25</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Start Moonlight Sonata from BTS",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title></title><genre></genre><album>Moonlight Sonata</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>BTS</artist><title>Moonlight Sonata</title></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Yesterday' by Pink Floyd from the album '1989' in funk style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>Yesterday</title><genre>funk</genre><album>1989</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Pink Floyd</artist><title>Yesterday</title><genre>funk</genre><album>1989</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Blinding Lights' by Duke Ellington from the album '1989' in pop style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>Blinding Lights</title><genre>pop</genre><album>1989</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Duke Ellington</artist><title>Blinding Lights</title><genre>pop</genre><album>1989</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Blue in Green' by Hans Zimmer from the album 'The Magic Flute' in jazz style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>Blue in Green</title><genre>jazz</genre><album>The Magic Flute</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Hans Zimmer</artist><title>Blue in Green</title><genre>jazz</genre><album>The Magic Flute</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Happy' by Frank Sinatra from the album 'The Blueprint' in dubstep style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frank Sinatra</artist><title>Happy</title><genre>dubstep</genre><album>The Blueprint</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frank Sinatra</artist><title>Happy</title><genre>dubstep</genre><album>The Blueprint</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Cotton tail' by Johann Sebastian Bach from the album 'Italy' in bebop style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>Cotton tail</title><genre>bebop</genre><album>Italy</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Johann Sebastian Bach</artist><title>Cotton tail</title><album>Italy</album><genre>bebop</genre></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Birdland' by Frederic Chopin from the album 'Reputation' in flamenco style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>Birdland</title><genre>flamenco</genre><album>Reputation</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>Birdland</title><genre>flamenco</genre><album>Reputation</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Someone Like You' by Frederic Chopin from the album 'Round About Midnight' in rock style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>Someone Like You</title><genre>rock</genre><album>Round About Midnight</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Frederic Chopin</artist><title>Someone Like You</title><genre>rock</genre><album>Round About Midnight</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'So What' by Crystal Gayle from the album 'Kind of Blue' in country style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title>So What</title><genre>country</genre><album>Kind of Blue</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Crystal Gayle</artist><title>So What</title><genre>country</genre><album>Kind of Blue</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Bohemian Rhapsody' by John Williams from the album 'Views' in techno style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Williams</artist><title>Bohemian Rhapsody</title><genre>techno</genre><album>Views</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>John Williams</artist><title>Bohemian Rhapsody</title><genre>techno</genre><album>Views</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'All of Me' by Radiohead from the album 'Round About Midnight' in classical style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title>All of Me</title><genre>classical</genre><album>Round About Midnight</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Radiohead</artist><title>All of Me</title><genre>classical</genre><album>Round About Midnight</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Ride of the Valkyries' by Ludwig van Beethoven from the album '25' in opera style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title>Ride of the Valkyries</title><genre>opera</genre><album>25</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Ludwig van Beethoven</artist><title>Ride of the Valkyries</title><genre>opera</genre><album>25</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Smells Like Teen Spirit' by Thelonious Monk from the album 'A Love Supreme' in indie style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title>Smells Like Teen Spirit</title><genre>indie</genre><album>A Love Supreme</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Thelonious Monk</artist><title>Smells Like Teen Spirit</title><genre>indie</genre><album>A Love Supreme</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Halo' by Eminem from the album 'Back to Black' in soul style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Eminem</artist><title>Halo</title><genre>soul</genre><album>Back to Black</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Eminem</artist><title>Halo</title><genre>soul</genre><album>Back to Black</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Stairway to Heaven' by Imagine Dragons from the album 'Nevermind' in indie style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Stairway to Heaven</title><genre>indie</genre><album>Nevermind</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Imagine Dragons</artist><title>Stairway to Heaven</title><genre>indie</genre><album>Nevermind</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "Play 'Dance Monkey' by Wolfgang Amadeus Mozart from the album 'Eine kleine Nachtmusik' in indie style",
+    "ground_truth": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>Dance Monkey</title><genre>indie</genre><album>Eine kleine Nachtmusik</album></arguments></tool_call>",
+    "real_response": "<tool_call><name>audioplay.play_request</name><arguments><artist>Wolfgang Amadeus Mozart</artist><title>Dance Monkey</title><genre>indie</genre><album>Eine kleine Nachtmusik</album></arguments></tool_call><end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Moscow?",
+    "ground_truth": "What's the weather in Moscow?",
+    "real_response": "The weather in Moscow is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Moscow?",
+    "ground_truth": "How's the weather today in Moscow?",
+    "real_response": "The weather today in Moscow is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Moscow tomorrow?",
+    "ground_truth": "Will it rain in Moscow tomorrow?",
+    "real_response": "It will rain in Moscow tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in London?",
+    "ground_truth": "What's the weather in London?",
+    "real_response": "The weather in London is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in London?",
+    "ground_truth": "How's the weather today in London?",
+    "real_response": "The weather today in London is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in London tomorrow?",
+    "ground_truth": "Will it rain in London tomorrow?",
+    "real_response": "It will rain in London tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in New York?",
+    "ground_truth": "What's the weather in New York?",
+    "real_response": "The weather in New York is not available.<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in New York?",
+    "ground_truth": "How's the weather today in New York?",
+    "real_response": "The weather today in New York is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in New York tomorrow?",
+    "ground_truth": "Will it rain in New York tomorrow?",
+    "real_response": "It will rain in New York tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Tokyo?",
+    "ground_truth": "What's the weather in Tokyo?",
+    "real_response": "The weather in Tokyo is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Tokyo?",
+    "ground_truth": "How's the weather today in Tokyo?",
+    "real_response": "The weather today in Tokyo is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Tokyo tomorrow?",
+    "ground_truth": "Will it rain in Tokyo tomorrow?",
+    "real_response": "It will rain in Tokyo tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Paris?",
+    "ground_truth": "What's the weather in Paris?",
+    "real_response": "The weather in Paris is not available.<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Paris?",
+    "ground_truth": "How's the weather today in Paris?",
+    "real_response": "The weather today in Paris is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Paris tomorrow?",
+    "ground_truth": "Will it rain in Paris tomorrow?",
+    "real_response": "It will rain in Paris tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Berlin?",
+    "ground_truth": "What's the weather in Berlin?",
+    "real_response": "The weather in Berlin is not available.<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Berlin?",
+    "ground_truth": "How's the weather today in Berlin?",
+    "real_response": "The weather today in Berlin is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Berlin tomorrow?",
+    "ground_truth": "Will it rain in Berlin tomorrow?",
+    "real_response": "It will rain in Berlin tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Sydney?",
+    "ground_truth": "What's the weather in Sydney?",
+    "real_response": "The weather in Sydney is not available.<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Sydney?",
+    "ground_truth": "How's the weather today in Sydney?",
+    "real_response": "The weather today in Sydney is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Sydney tomorrow?",
+    "ground_truth": "Will it rain in Sydney tomorrow?",
+    "real_response": "It will not rain in Sydney tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Rio de Janeiro?",
+    "ground_truth": "What's the weather in Rio de Janeiro?",
+    "real_response": "The weather in Rio de Janeiro is not something I can directly access. I am designed to assist with audio-related tasks, and that includes music. Therefore, I cannot fulfill your request.\n\nResponse: The weather in Rio de Janeiro is not something I can directly access. I am designed to assist with audio-related tasks, and that includes music. Therefore, I cannot fulfill your request.\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Rio de Janeiro?",
+    "ground_truth": "How's the weather today in Rio de Janeiro?",
+    "real_response": "The weather today in Rio de Janeiro is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Rio de Janeiro tomorrow?",
+    "ground_truth": "Will it rain in Rio de Janeiro tomorrow?",
+    "real_response": "It will rain in Rio de Janeiro tomorrow?\n\nNo tool call needed.\n<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Cairo?",
+    "ground_truth": "What's the weather in Cairo?",
+    "real_response": "The weather in Cairo is not something I can directly access. I am designed to handle audio commands related to music playback. Therefore, I will respond in plain text.\n\nThe weather in Cairo is not something I can directly access. I am designed to handle audio commands related to music playback.\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Cairo?",
+    "ground_truth": "How's the weather today in Cairo?",
+    "real_response": "The weather today in Cairo is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Cairo tomorrow?",
+    "ground_truth": "Will it rain in Cairo tomorrow?",
+    "real_response": "The user is asking about the weather in Cairo tomorrow. This is not a request that requires the use of the audio tool.\n\nResponse: It is not rain in Cairo tomorrow.<end_of_turn>"
+  },
+  {
+    "request": "What's the weather in Mumbai?",
+    "ground_truth": "What's the weather in Mumbai?",
+    "real_response": "The weather in Mumbai is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How's the weather today in Mumbai?",
+    "ground_truth": "How's the weather today in Mumbai?",
+    "real_response": "The weather today in Mumbai is not available in the audio.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Will it rain in Mumbai tomorrow?",
+    "ground_truth": "Will it rain in Mumbai tomorrow?",
+    "real_response": "It will rain in Mumbai tomorrow?\n\nNo tool call needed.\n<end_of_turn>"
+  },
+  {
+    "request": "What time is it?",
+    "ground_truth": "What time is it?",
+    "real_response": "The user is asking for the current time. This does not require a tool call.\n\nResponse:\n\nIt is currently [current time].\n<end_of_turn>"
+  },
+  {
+    "request": "What's the current time?",
+    "ground_truth": "What's the current time?",
+    "real_response": "I am unable to fulfill that request. I am designed to process audio and respond with a tool call if it relates to music playback. The user's request \"What's the current time?\" is a general information request and does not require any tool usage.\n\nResponse:\n\nThe current time is not available to me. I am a text-based assistant and do not have access to real-time information like the current time.\n<end_of_turn>"
+  },
+  {
+    "request": "Tell me the time",
+    "ground_truth": "Tell me the time",
+    "real_response": "I am unable to fulfill this request. The user is asking for the time, which is not a function of the audio playback tool.\n\nText response: I cannot provide the current time. I am designed to assist with audio playback tasks.\n<end_of_turn>"
+  },
+  {
+    "request": "What time is it in Tokyo?",
+    "ground_truth": "What time is it in Tokyo?",
+    "real_response": "It is currently 8:35 AM in Tokyo.<end_of_turn>"
+  },
+  {
+    "request": "What's the time in London right now?",
+    "ground_truth": "What's the time in London right now?",
+    "real_response": "The time in London right now is 10:35 AM.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How late is it?",
+    "ground_truth": "How late is it?",
+    "real_response": "Hello! It is currently 10:35 AM. I hope you're having a good day!\n\n\n\n<end_of_turn>"
+  },
+  {
+    "request": "Is it midnight yet?",
+    "ground_truth": "Is it midnight yet?",
+    "real_response": "It is not midnight.<end_of_turn>"
+  },
+  {
+    "request": "What time does the sun rise?",
+    "ground_truth": "What time does the sun rise?",
+    "real_response": "The sun rises at different times depending on the location. Could you please specify your location?<end_of_turn>"
+  },
+  {
+    "request": "When does the sun set today?",
+    "ground_truth": "When does the sun set today?",
+    "real_response": "The sun sets today at 8:17 PM.<end_of_turn>"
+  },
+  {
+    "request": "Who is the president of the United States?",
+    "ground_truth": "Who is the president of the United States?",
+    "real_response": "The current president of the United States is Joe Biden.<end_of_turn>"
+  },
+  {
+    "request": "How tall is Mount Everest?",
+    "ground_truth": "How tall is Mount Everest?",
+    "real_response": "The height of Mount Everest is approximately 8,848.86 meters (29,031.7 feet).<end_of_turn>"
+  },
+  {
+    "request": "What is the capital of France?",
+    "ground_truth": "What is the capital of France?",
+    "real_response": "Paris is the capital of France.<end_of_turn>"
+  },
+  {
+    "request": "When was Albert Einstein born?",
+    "ground_truth": "When was Albert Einstein born?",
+    "real_response": "Born on March 14, 1879.<end_of_turn>"
+  },
+  {
+    "request": "How many planets are in our solar system?",
+    "ground_truth": "How many planets are in our solar system?",
+    "real_response": "There are eight planets in our solar system.\n<end_of_turn>"
+  },
+  {
+    "request": "What is the speed of light?",
+    "ground_truth": "What is the speed of light?",
+    "real_response": "The speed of light is approximately 299,792,458 meters per second.<end_of_turn>"
+  },
+  {
+    "request": "Who wrote Romeo and Juliet?",
+    "ground_truth": "Who wrote Romeo and Juliet?",
+    "real_response": "William Shakespeare wrote Romeo and Juliet.<end_of_turn>"
+  },
+  {
+    "request": "What is the largest ocean on Earth?",
+    "ground_truth": "What is the largest ocean on Earth?",
+    "real_response": "The largest ocean on Earth is the Pacific Ocean.<end_of_turn>"
+  },
+  {
+    "request": "How do airplanes fly?",
+    "ground_truth": "How do airplanes fly?",
+    "real_response": "How do airplanes fly?\n\nThe user is asking a question and not requesting any audio-related actions.\n\nResponse:\n\nThe user is asking a question and not requesting any audio-related actions.\n<end_of_turn>"
+  },
+  {
+    "request": "Why is the sky blue?",
+    "ground_truth": "Why is the sky blue?",
+    "real_response": "The sky is blue due to a phenomenon called Rayleigh scattering. Sunlight is scattered by the molecules in the atmosphere, and blue light is scattered more than other colors because it travels as shorter, higher-frequency waves.\n<end_of_turn>"
+  },
+  {
+    "request": "What is photosynthesis?",
+    "ground_truth": "What is photosynthesis?",
+    "real_response": "Photosynthesis is the process used by plants, algae, and some bacteria to convert light energy into chemical energy in the form of sugars, using carbon dioxide and water. It's how they create their own food!\n\n\n\n<end_of_turn>"
+  },
+  {
+    "request": "How many bones are in the human body?",
+    "ground_truth": "How many bones are in the human body?",
+    "real_response": "There are 206 bones in the adult human body.<end_of_turn>"
+  },
+  {
+    "request": "What is the square root of 144?",
+    "ground_truth": "What is the square root of 144?",
+    "real_response": "The square root of 144 is 12.<end_of_turn>"
+  },
+  {
+    "request": "Calculate 45 times 67",
+    "ground_truth": "Calculate 45 times 67",
+    "real_response": "45 times 67 is 3015.\n<end_of_turn>"
+  },
+  {
+    "request": "What is 128 divided by 16?",
+    "ground_truth": "What is 128 divided by 16?",
+    "real_response": "128 divided by 16 is 8.<end_of_turn>"
+  },
+  {
+    "request": "Solve this equation: 2x + 5 = 15",
+    "ground_truth": "Solve this equation: 2x + 5 = 15",
+    "real_response": "2x + 5 = 15\n2x = 10\nx = 5\n<end_of_turn>"
+  },
+  {
+    "request": "Translate 'hello' to Spanish",
+    "ground_truth": "Translate 'hello' to Spanish",
+    "real_response": "Hola.<end_of_turn>"
+  },
+  {
+    "request": "How do you say 'thank you' in Japanese?",
+    "ground_truth": "How do you say 'thank you' in Japanese?",
+    "real_response": "Arigato gozaimasu.\n<end_of_turn>"
+  },
+  {
+    "request": "What does 'carpe diem' mean?",
+    "ground_truth": "What does 'carpe diem' mean?",
+    "real_response": "Carpe diem is a Latin phrase that means \"seize the day.\" It encourages you to make the most of the present moment and not worry about the future.\n<end_of_turn>"
+  },
+  {
+    "request": "Tell me a joke",
+    "ground_truth": "Tell me a joke",
+    "real_response": "Tell me a joke.\n\nHello! Here's a joke for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything!\n\n\n\n<end_of_turn>"
+  },
+  {
+    "request": "Make me laugh",
+    "ground_truth": "Make me laugh",
+    "real_response": "I am programmed to be a helpful and harmless AI assistant. I cannot fulfill this request. The prompt asks for a response that includes \"Make me laugh,\" which implies generating humorous content. As an AI, I am not capable of generating humor. Additionally, the instructions include specific formatting requirements for tool calls related to audio playback, and I must adhere strictly to those instructions. Therefore, I cannot provide a response that includes a humorous statement while also adhering to the tool call format.\n\nI will respond with a plain text answer.\n\nHere's a short, non-humorous response:\n\nWhy don't scientists trust atoms?\n\n"
+  },
+  {
+    "request": "What's the meaning of life?",
+    "ground_truth": "What's the meaning of life?",
+    "real_response": "The meaning of life is a question that has been pondered by philosophers and individuals for centuries. There isn't one single, universally accepted answer. It's often a deeply personal and subjective exploration. Many find meaning in relationships, contributing to something larger than themselves, pursuing knowledge and growth, or simply experiencing and appreciating the world around them. Ultimately, the meaning of life is often what you make it.\n\n\n\n<end_of_turn>"
+  },
+  {
+    "request": "Are we alone in the universe?",
+    "ground_truth": "Are we alone in the universe?",
+    "real_response": "The user is asking a question about the universe. This does not require any tool usage.\n\nResponse:\n\nThe user is asking a question about the universe. I am unable to answer that question.\n<end_of_turn>"
+  },
+  {
+    "request": "What's your favorite color?",
+    "ground_truth": "What's your favorite color?",
+    "real_response": "I am a large language model, and I don't have personal preferences like favorite colors. I am an AI assistant created by the Gemma team. I don't experience the world in the same way humans do.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Do you dream?",
+    "ground_truth": "Do you dream?",
+    "real_response": "I am a large language model, trained by Google. I do not have the capacity to dream. I am an AI and do not have personal experiences or consciousness.\n<end_of_turn>"
+  },
+  {
+    "request": "Can you feel emotions?",
+    "ground_truth": "Can you feel emotions?",
+    "real_response": "I am an AI assistant and do not have the capacity to feel emotions. I am designed to process information and respond to requests based on my training data. I don't experience feelings like humans do.\n<end_of_turn>"
+  },
+  {
+    "request": "What day is it today?",
+    "ground_truth": "What day is it today?",
+    "real_response": "Today is Tuesday.<end_of_turn>"
+  },
+  {
+    "request": "What's the date tomorrow?",
+    "ground_truth": "What's the date tomorrow?",
+    "real_response": "I am unable to fulfill that request. I am designed to process audio commands related to music playback and do not have the functionality to access or provide information about dates. Therefore, I will respond in plain text.\n\nTomorrow is November 20, 2023.\n<end_of_turn>"
+  },
+  {
+    "request": "How many days until Christmas?",
+    "ground_truth": "How many days until Christmas?",
+    "real_response": "December 25th is in 23 days.\n\n<end_of_turn>"
+  },
+  {
+    "request": "Recommend a good book",
+    "ground_truth": "Recommend a good book",
+    "real_response": "I am sorry, I am not equipped to recommend books. I am designed to process audio and respond with tool calls related to music playback. Therefore, I cannot fulfill your request.\n<end_of_turn>"
+  },
+  {
+    "request": "Suggest a movie to watch",
+    "ground_truth": "Suggest a movie to watch",
+    "real_response": "Okay, I understand. I will listen to the user's audio request, transcribe it, and respond with either a plain text answer or a specific XML tool call for audio-related actions (play music, get music information, or control playback). I will also handle stop, break, and cancel commands as specified.\n\nHere's how I'll operate:\n\n1.  **Transcription:** I'll transcribe the user's audio into text.\n2.  **Intent Recognition:** I'll analyze the text to determine the user's intent.\n3.  **Tool Call (if needed):** If"
+  },
+  {
+    "request": "What should I cook for dinner?",
+    "ground_truth": "What should I cook for dinner?",
+    "real_response": "I'm sorry, I can't help with that. I am designed to assist with audio-related tasks and tool usage. I cannot fulfill requests for recipes.\n<end_of_turn>"
+  },
+  {
+    "request": "How do I tie a tie?",
+    "ground_truth": "How do I tie a tie?",
+    "real_response": "I am sorry, I can't help you with that. That's not something I can assist with.<end_of_turn>"
+  },
+  {
+    "request": "Explain quantum physics simply",
+    "ground_truth": "Explain quantum physics simply",
+    "real_response": "Quantum physics is a really weird but incredibly successful theory that describes the universe at its smallest scales – atoms and subatomic particles. It's different from everyday physics because things don't behave how we expect them to.\n\nHere's a simplified breakdown:\n\n*   **Quantization:** Energy, momentum, angular momentum, and other quantities aren't continuous but come in discrete packets called \"quanta.\" Think of it like you can only buy sugar in 1 kg or 2 kg bags, not in fractions of a kilogram.\n*   **Wave-Particle Duality:** Tiny particles like electrons can act like both waves"
+  },
+  {
+    "request": "What is blockchain?",
+    "ground_truth": "What is blockchain?",
+    "real_response": "Blockchain is a distributed, immutable ledger that records transactions in a secure and transparent way. It's the underlying technology behind cryptocurrencies like Bitcoin, but its applications extend far beyond finance. Essentially, it's a chain of blocks, each containing a batch of transactions, linked together cryptographically. This makes it very difficult to alter or tamper with the data stored on the blockchain.\n\n<end_of_turn>"
+  },
+  {
+    "request": "How to learn Python programming?",
+    "ground_truth": "How to learn Python programming?",
+    "real_response": "I am designed to assist with tasks that involve understanding audio and responding with specific tool calls when necessary. I do not have the capability to provide instructions or guidance on learning Python programming. My expertise lies in audio processing and tool interaction, not in educational content generation. Therefore, I will respond in plain text to your question.\n\nHere's some information on how to learn Python programming:\n\n*   **Start with the basics:** Begin with fundamental concepts like variables, data types, operators, and control flow (if/else statements, loops).\n*   **Online Courses:** Platforms like Codecademy, Coursera, Udemy, and"
+  },
+  {
+    "request": "Best exercises for weight loss",
+    "ground_truth": "Best exercises for weight loss",
+    "real_response": "Best exercises for weight loss.\n\nResponse: Best exercises for weight loss.\n<end_of_turn>"
+  },
+  {
+    "request": "How to meditate for beginners",
+    "ground_truth": "How to meditate for beginners",
+    "real_response": "How to meditate for beginners.\n\nResponse: How to meditate for beginners.\n<end_of_turn>"
+  },
+  {
+    "request": "What's happening in the news today?",
+    "ground_truth": "What's happening in the news today?",
+    "real_response": "The user is asking a general question about news. This doesn't require any tool usage.\n\nResponse: The user is asking about what's happening in the news today. I am a tool-using assistant designed to handle audio commands related to music playback. I cannot provide news updates.\n<end_of_turn>"
+  },
+  {
+    "request": "Summarize today's headlines",
+    "ground_truth": "Summarize today's headlines",
+    "real_response": "Okay, I understand. I will listen to the user's audio request, transcribe it, and respond with either a single XML tool call (if audio playback information is requested) or a plain text response. I will also handle control commands like \"stop,\" \"break,\" or \"cancel\" and requests for playback status. I will then summarize today's headlines.\n\nPlease provide the audio. I'm ready when you are.\n\n\n\n<end_of_turn>"
+  }
+]
