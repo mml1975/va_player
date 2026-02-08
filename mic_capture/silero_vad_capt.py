@@ -51,7 +51,6 @@ def callback(indata, frames, time_info, status):
         # unsqueeze(0) добавляет размерность батча
         prob_tensor = model(audio_tensor.unsqueeze(0), SAMPLE_RATE)
         
-        # Для отладки можно раскомментировать:
         # print(f"Форма вероятностей: {prob_tensor.shape}, значения: {prob_tensor}")
         
         # Получаем скалярное значение вероятности
