@@ -1,0 +1,1 @@
+gemma_textfn.py - finetuning Gemma-3n-E4B with voice assistant dataset on the "text_user" and "text_assistant" columns. wav-files isn't used.
